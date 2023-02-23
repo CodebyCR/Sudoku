@@ -1,7 +1,7 @@
 set(SOURCE_FILES Main.cpp)
 add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/${SOURCE_FILES}
         Matrix.hpp
-        Cell.hpp Random.hpp Sudoku_Level.hpp)
+        Cell.hpp Random.hpp Sudoku_Level.hpp Board.hpp)
 
 include_directories(/usr/local/include)
 
